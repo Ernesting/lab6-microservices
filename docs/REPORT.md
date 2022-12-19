@@ -13,23 +13,23 @@ This document contains a brief of how the following activities have been accompl
 
 The registration server is exposed in `http://localhost:1111`.
 
-![Captura1.PNG](Captura1.PNG)
+![Captura1.PNG](./resources/Captura1.PNG)
 
 The account service is exposed in `http://localhost:2222`.
 
-![Captura2.PNG](Captura2.PNG)
+![Captura2.PNG](./resources/Captura2.PNG)
 
 We can see that the account service is registered in the registration server:
 
-![Captura3.PNG](Captura3.PNG)
+![Captura3.PNG](./resources/Captura3.PNG)
 
 Next, we launch launch the third application, the web one, at port 3333.
 
-![Captura4.PNG](Captura4.PNG)
+![Captura4.PNG](./resources/Captura4.PNG)
 
 We can see that these two services are registered in the registration server:
 
-![Captura5.PNG](Captura5.PNG)
+![Captura5.PNG](./resources/Captura5.PNG)
 
 Now we change the port of the account service to 4444 for example:
 
@@ -44,16 +44,16 @@ server:
 
 Then we launch the new account service:
 
-![Captura6.PNG](Captura6.PNG)
+![Captura6.PNG](./resources/Captura6.PNG)
 
 There are three services registered in the registration server now:
 
-![Captura7.PNG](Captura7.PNG)
+![Captura7.PNG](./resources/Captura7.PNG)
 
 Now we shutdown the account service at port 2222:
 
-![Captura8.PNG](Captura8.PNG)
+![Captura8.PNG](./resources/Captura8.PNG)
 
 When we try to fetch an account, sometimes it fails and sometimes it succeeds:
 
-![Captura9.PNG](Captura9.PNG)
+![Captura9.PNG](./resources/Captura9.PNG)
